@@ -1,6 +1,5 @@
-def main():
-    print("Hello from ml-course!")
+import sys
 
-
-if __name__ == "__main__":
-    main()
+name = input("Как тебя зовут? ")
+print(f"Привет, {name}!")
+print("Версия Python:", sys.version.split()[0])
